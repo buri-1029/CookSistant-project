@@ -1,44 +1,38 @@
-# CookSistant [레시피 추천서비스]
+# CookSistant
 
-기획 배경
-===
+> _자취생을 위한 평가기반 레시피 추천 서비스_
 
-바쁜 일상속에서 자취생들의 식생활에 도움을 줄 수 있는 서비스를 구상해 보았습니다.
-코로나 팬데믹인 현재, 자취생 입장에서 '건강', '식습관'이 매우 중요한 키워드라고 판단하였습니다.
-Cooksistant는 <strong>React Native</strong>언어를 통해 애플리케이션환경에서 간단히 동작가능하도록 구현하였고 사용자가 사용한 레시피 평가 데이터를 기반으로 <strong>Latent Factor Collaborative Filtering</strong>과 <strong>Contents Based Filtering</strong>을 통해 최적의 레시피를 추천해줍니다. 추가적으로 자취생들이 현재 소유하고 있는 재료를 기반으로 필터링 또한 수행합니다.
+<br/>
+<br/>
+
+- 개발 기간 : 2021.03.01 ~ 2021.04.09
+- 인원 : 4명 
+- 주요 내용 : 자취생을 위하여 사용자가 레시피에 대하여 **최근 평가한 내용**과 **본인과 비슷한 평가를 한 사용자들의 평가**를 기반으로 레시피를 추천해주는 서비스
 
 
-### Notion Link
+<br/>
+<br/>
 
-- https://www.notion.so/CookSistant-eddba11b91494c4185c65cec233fa8ac
+## ✔️ Tech 
+
+![javascript](https://img.shields.io/badge/-Javascript-F7DF1E?logo=javascript&logoColor=white&style=flat) ![reactnative](https://img.shields.io/badge/-ReactNative-61DAFB?logo=react&logoColor=white&style=flat) ![expo](https://img.shields.io/badge/-Expo-000020?logo=expo&logoColor=white&style=flat) ![firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white&style=flat) ![java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat) ![spring boot](https://img.shields.io/badge/-SpringBoot-6DB33F?logo=springboot&logoColor=white&style=flat) ![mysql](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)![jpa](https://img.shields.io/badge/-JPA-gray?logoColor=white&style=flat) ![python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat) ![flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat) ![jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white&style=flat) ![docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white&style=flat)
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon%20S3&logoColor=white&style=flat"/> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazon%20AWS&logoColor=white&style=flat"/>
 
 <br/>
 
-## :atom_symbol: 프런트 엔드
+## ✔️ Architecture
 
-- <strong>React Native</strong>
-
-<br/>
-
-
-## :chart_with_upwards_trend:   데이터 분석 + 백엔드 서버
-
-### 데이터 크롤링
-
-- <strong>만개의 레시피</strong>
+![architecture](assets/architecture.png)
 
 <br/>
 
-### 추천 알고리즘
+## ✔️ UI
 
-- <strong>Latent Factor Collaborative Filtering(잠재 요인 협업 필터링)</strong>
-- <strong>Contents Based Filtering(내용 기반 필터링)</strong>
+![ui1](assets/ui1.png)
+![ui2](assets/ui2.png)
 
 <br/>
 
-### Backend Server
-
-- <strong>Spring Boot</strong>
-- <strong>Flask</strong>
+## ✔️ Feature Details
 
 <br/>
