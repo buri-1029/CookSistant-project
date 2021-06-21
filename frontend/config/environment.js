@@ -12,7 +12,6 @@ var environments = {
 		GOOGLE_CLOUD_VISION_API_KEY: 'AIzaSyDqM_RK_bUadNf3jKjOMPPdbbbR7X7Hutk'
 	},
 	production: {
-		// Warning: This file still gets included in your native binary and is not a secure way to store secrets if you build for the app stores. Details: https://github.com/expo/expo/issues/83
 	}
 };
 
